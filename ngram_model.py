@@ -1,3 +1,5 @@
+import pickle
+
 class YorubaNgram(object):
     """A language model that uses n-grams to make probabilistic predictions.
 
