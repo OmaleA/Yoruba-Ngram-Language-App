@@ -3,14 +3,6 @@ import pickle
 from ngram_model import YorubaNgram
 
 
-# Custom CSS to inject into the Streamlit app
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
-local_css("style.css")
-
-
 # Assuming YorubaNgram class is defined with a method Predict that takes the last word(s) and returns predictions
 # Create an instance of the class
 ngram_instance = YorubaNgram()
