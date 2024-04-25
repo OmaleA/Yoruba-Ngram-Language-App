@@ -1,1 +1,3 @@
-streamlit>=0.84.0
+nltk
+matplotlib
+streamlit
