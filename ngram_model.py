@@ -1,4 +1,9 @@
+from itertools import product
+import math
+import nltk
 import pickle
+import matplotlib.pyplot as plt
+import random
 
 class YorubaNgram(object):
     """A language model that uses n-grams to make probabilistic predictions.
